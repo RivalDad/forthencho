@@ -1,6 +1,6 @@
 @{
   RootModule = 'Forthencho'
-  ModuleVersion = '0.0.1'
+  ModuleVersion = '0.0.11'
   GUID = '0bdb27e1-ffbe-4470-bc95-01cf17613a9d'
   Author = 'Everett Williams'
   CompanyName = 'Forthencho'
@@ -11,7 +11,7 @@
   PowerShellVersion    = '5.1'
 
   # Export explicitly (update these names as your module grows)
-  FunctionsToExport = @('Forthencho')
+  FunctionsToExport = @('Forthencho','Test-ModuleVersion','Get-TempModule','Remove-TempModule','Get-ADLockoutSource','Ensure-RSAT','Get-UserOU')
   CmdletsToExport   = @()
   VariablesToExport = @()
   AliasesToExport   = @()
